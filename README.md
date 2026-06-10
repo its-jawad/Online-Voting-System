@@ -2,9 +2,7 @@
 
 A web-based Online Voting System built using **HTML, CSS, and JavaScript** that allows students to securely vote for candidates while administrators manage elections, candidates, and view results in real time.
 
----
-
-## 🚀 Features
+## Features
 
 ### 👨‍🎓 Student Panel
 - Student registration and login
