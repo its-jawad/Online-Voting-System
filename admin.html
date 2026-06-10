@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="protectAdmin(); displayCandidates();">
+
+<div class="admin-wrapper">
+
+    <!-- HEADER BAR -->
+    <div class="admin-header">
+        <h2 class="admin-header">Admin Dashboard</h2>
+        <button class="add-candidatebtn" onclick="openModal()">+ Add Candidate</button>
+    </div>
+
+    <!-- BODY -->
+    <div class="admin-body">
+        <p class="total">
+            Total Candidates: <span id="totalCandidates">0</span>
+        </p>
+
+        <div id="candidateList" class="candidate-list"></div>
+
+                <!-- PAGINATION -->
+         <div id="pagination" class="pagination"></div>
+
+
+        <a class="result-link" href="result.html">View Election Results</a>
+    </div>
+</div>
+
+<!-- MODAL -->
+<div id="candidateModal" class="modal">
+    <div class="modal-content">
+        <h3>Add New Candidate</h3>
+
+        <input id="candidateName" placeholder="Candidate Name">
+<input id="candidateParty" placeholder="Party Name">
+
+<!-- IMAGE INPUT -->
+<input type="file" id="candidateImage" accept="image/*" required>
+
+
+        <div class="modal-actions">
+            <button class="cancel-btn" onclick="closeModal()">Cancel</button>
+            <button onclick="addCandidate()">Add Candidate</button>
+        </div>
+    </div>
+</div>
