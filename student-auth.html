@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Authentication</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LOGIN -->
+    <div id="loginBox">
+        <h2>Student Login</h2>
+        <input id="lu" placeholder="Username">
+        <input id="lp" type="password" placeholder="Password">
+        <button onclick="loginStudent()">Login</button>
+        <a onclick="showRegister()">Create account</a>
+    </div>
+
+    <!-- REGISTER -->
+    <div id="registerBox" style="display:none;">
+        <h2>Student Registration</h2>
+        <input id="su" placeholder="Username">
+        <input id="se" placeholder="Email">
+        <input id="sp" type="password" placeholder="Password">
+        <input id="scp" type="password" placeholder="Confirm Password">
+        <button onclick="registerStudent()">Register</button>
+        <a onclick="showLogin()">Back to Login</a>
+    </div>
+
+</div>
+
+<script src="js/model.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
