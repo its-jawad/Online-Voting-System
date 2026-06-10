@@ -67,6 +67,7 @@ A web-based Online Voting System built using **HTML, CSS, and JavaScript** that 
 ## Author
 
 **Muhammad Jawad**
+
 Frontend Developer | Student Project
 
 
