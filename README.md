@@ -38,7 +38,7 @@ A web-based Online Voting System built using **HTML, CSS, and JavaScript** that 
 
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/your-username/online-voting-system.git
+   git clone https://github.com/its-jawad/Online-Voting-System
 2. Open the project folder
 3. Run student_auth.html or admin_auth.html in your browser
 4. Start using the system
