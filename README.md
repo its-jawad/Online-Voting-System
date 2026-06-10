@@ -45,9 +45,9 @@ A web-based Online Voting System built using **HTML, CSS, and JavaScript** that 
 
 
 ## Authentication Flow
-Students must register before voting
-Admins manage candidates and results
-LocalStorage is used for session handling and data storage
+- Students must register before voting
+- Admins manage candidates and results
+- LocalStorage is used for session handling and data storage
 
 
 ## Voting System Logic
