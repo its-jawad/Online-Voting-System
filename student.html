@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Voting</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="protectStudent(); loadVotingUI();">
+
+<div class="vote-wrapper">
+
+    <div class="vote-header">
+        Vote For Your Candidate
+    </div>
+
+    <div id="candidates" class="vote-cards"></div>
+
+    <button id="submitVoteBtn" onclick="submitVote()">Submit Vote</button>
+
+</div>
+
+<script src="js/model.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/controller.js"></script>
+
+</body>
+</html>
