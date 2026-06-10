@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Election Results</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body onload="protectAdmin(); loadResults();">
+
+<div class="results-wrapper">
+
+    <!-- HEADER -->
+    <div class="results-header">
+        <h2 class="header-h2">Election Results</h2>
+    </div>
+
+    <!-- LINE CHART -->
+    <div class="results-top">
+        <canvas id="lineChart"></canvas>
+    </div>
+
+    <!-- CANDIDATE LIST -->
+    <div class="results-list">
+        <h3>Candidate Results</h3>
+    
+        <div id="resultList" class="candidate-table"></div>
+
+       <div id="resultPagination" class="pagination"></div>
+    </div>
+    
+
+    
+
+</div>
+
+<script src="js/model.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/result.js"></script>
+
+</body>
+</html>
